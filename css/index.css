@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(66, 66, 92);
+}
+
+h1,h2,h3,p,a{
+    color:#fff;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    margin: 1em 0 1em 0;
+    border-bottom: 8px solid white;
+}
+
+.nav-bar, ul{
+    background-color: rgb(102, 104, 134);
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    justify-content:right;
+    gap: 0;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    padding: 2em;
+    margin: 0;
+}
+
+.nav-bar a:hover{
+    background-color: rgb(135, 136, 165);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10em;
+    margin: auto;
+}
+
+.content-home, .content-sobre{
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+}
+
+.logo{
+    margin-right: 50%;
+    padding: 0;
+}
+
+.logo img{
+    max-width: 100px;
+}
+
+.content-projetos{
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5em;
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.card-projeto img{
+    max-width: 90%;
+    border: 8px solid white;
+}
+
